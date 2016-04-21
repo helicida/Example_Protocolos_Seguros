@@ -72,5 +72,15 @@ public class ClienteCalculadora {
     }
 }
 
-// keytool -genkey -keystore sergikey -keyalg RSA
-// java -Djavax.net.ssl.keystore=sergikey -Djavax.net.ssl.trustStore=sergikey -Djavax.net.ssl.keyStorePassword=sergi123 ServidorCalculadora
+/*
+        Instrucciones:
+        ----------------------------------------
+        Paso 1 - Abrimos un terminal y nos vamos a la carpeta del proyecto con el comando cd
+
+        Pas 2 - Ejecutamos el siguiente comando
+        · keytool -genkey -keystore sergikey -keyalg RSA
+        · java -Djavax.net.ssl.keystore=sergikey -Djavax.net.ssl.trustStore=sergikey -Djavax.net.ssl.keyStorePassword=sergi123 ServidorCalculadora
+        · java -Djavax.net.ssl.keystore=sergikey -Djavax.net.ssl.trustStore=sergikey -Djavax.net.ssl.keyStorePassword=sergi123 ClienteCalculadora
+        */
+
+
